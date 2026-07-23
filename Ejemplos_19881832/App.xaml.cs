@@ -7,11 +7,10 @@ namespace Ejemplos_19881832
         public App()
         {
             InitializeComponent();
+            MainPage = new ButtonPage();
         }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new AppShell());
-        }
+        
+
     }
 }
